@@ -35,3 +35,7 @@
     --text-sm: 400 14px/140% var(--maven-family);
 
 }
+
+body {
+    background: var(--gray-200);
+}
