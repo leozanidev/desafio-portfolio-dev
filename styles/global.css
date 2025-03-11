@@ -33,6 +33,7 @@
     --subtitle: 400 20px/120% var(--inconsolata-family);
     --text-md: 400 16px/140% var(--maven-family);
     --text-sm: 400 14px/140% var(--maven-family);
+    --text-contact: 500 16px/140% var(--maven-family);
 
 }
 
