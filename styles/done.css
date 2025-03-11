@@ -8,7 +8,7 @@
   padding: 72px 120px 144px 120px;
 }
 
-#done-header {
+.header {
   justify-items: center;
   margin-bottom: 56px;
 
@@ -40,21 +40,35 @@
     color: var(--gray-500);
   }
 
-  img{
-    width: 305px;
-    height: 156px;
-    height: 100%;
-    border-radius: 12px;
-    object-fit: contain;
-    overflow: hidden;
-  }
+
 }
 
 .card {
   width: 330px;
   height: 280px;
   border-radius: 12px;
-  background: var(--gray-300);
+  background-color: var(--gray-300);
+  
+  img{
+    width: 306px;
+    height: 156px;
+    height: 55%;
+    margin: 12px 12px 20px 12px;
+    border-radius: 08px;
+  }
+}
 
+.text {
+  margin: 0px 12px 17px 12px;
+  padding: 4px 4px;
 
+  h2 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+  }
+  
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
 }
